@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.caixa-topo{
+    width: 100%;
+}
+.topo{
+    display:flex; 
+    justify-content: space-between;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+
+}
+.botao{
+    display: flex;
+    width: auto;
+    height: 50px;
+    padding-right:30px;
+    border:none;
+}
+section{
+    display: inline-block;
+}
+.versoes{
+    font-size: 30px;
+    font-weight: 550;
+      margin-left: 30px;
+      margin-top: 30px;
+
+}
+.corolla{
+    font-size: 15px;
+    font-weight: 300 ;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+ul{
+    display: flex;
+    gap: 190px;
+    margin-top: 30px;
+    margin-left: 40px;
+    list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline red 2px;
+}
+.artigo{
+    display: inline-block;
+}
+img{
+    margin-left: 60px;
+}
+.arraste{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.selecione {
+    margin-top: 20px;
+    margin-left:  60px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cores{
+    margin-top: -120px;
+    display: inline-flex;
+    gap:10px;
+    margin-left: 210px;
+}
+
+.brancop{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color:#f4f4f2;
+}
+.vermelho{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color:#7e1f23;
+}
+.cinza{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:#8e9da7;
+}
+.preto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:#282e30;
+}
+.prata{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #c3cbd0;
+}
+aside{
+    float: right;
+    margin-top: 100px;
+}
+.parcelas{
+    font-size: 24px;
+}
+h2{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+    
