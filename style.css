@@ -39,7 +39,7 @@ section{
 }
 ul{
     display: flex;
-    gap: 190px;
+    gap: 170px;
     margin-top: 30px;
     margin-left: 40px;
     list-style: none;
@@ -48,8 +48,12 @@ ul{
 li:hover{
     text-decoration: underline red 2px;
 }
-.artigo{
-    display: inline-block;
+.caixa-centro{
+    margin-top: 30px;
+    margin-left: 110px;
+    display: flex;
+    align-items:center;
+    gap:10px;
 }
 img{
     margin-left: 60px;
@@ -57,55 +61,52 @@ img{
 .arraste{
     font-size: 20px;
     font-weight: 300;
-    text-align: center;
+    margin: 0 auto;
 }
 .selecione {
-    margin-top: 20px;
-    margin-left:  60px;
     font-size: 20px;
     font-weight: 300;
+    order: 0;
+    margin-right: 10px;
 }
 
-.cores{
-    margin-top: -120px;
-    display: inline-flex;
-    gap:10px;
-    margin-left: 210px;
+button{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+button:hover{
+    border: #282e30 ;
+    border-radius: 120px;
 }
 
 .brancop{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
+    order: 1;
     background-color:#f4f4f2;
 }
 .vermelho{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
+    order: 2;
     background-color:#7e1f23;
 }
 .cinza{
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
+    order:  3;
     background-color:#8e9da7;
 }
 .preto{
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
+    order:  4;
     background-color:#282e30;
 }
 .prata{
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
+    order:5;
     background-color: #c3cbd0;
 }
 aside{
+    margin-top: 1rem;
     float: right;
-    margin-top: 100px;
+    width: 50%;
+
 }
 .parcelas{
     font-size: 24px;
